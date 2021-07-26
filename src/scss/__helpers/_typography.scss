@@ -1,0 +1,17 @@
+.paragraph {
+    line-height: 27px;
+    
+    &--primary {
+        color: $gray;
+    }
+
+    &--secondary {
+        color: $black;
+    }
+}
+
+.h1 {
+    font-size: 56px;
+    font-family: $font-primary-bold;
+    margin: 15px 0;
+}

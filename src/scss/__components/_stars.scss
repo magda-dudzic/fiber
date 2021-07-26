@@ -1,0 +1,9 @@
+.stars {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    
+    &__img {
+        margin: 0 3px;
+    }
+}

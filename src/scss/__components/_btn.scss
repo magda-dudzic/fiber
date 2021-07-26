@@ -1,0 +1,38 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: $color-primary;
+    color: $color-secondary;
+    font-family: $font-primary-bold;
+    border-radius: 5px;
+    height: 60px;
+    min-width: 120px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        content: '';
+        transition: all .5s;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: #4006C1;
+        opacity: .8;
+        z-index: 0;
+    }
+
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        z-index: 1;
+        position: relative;
+    }
+}
