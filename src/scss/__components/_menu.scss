@@ -1,8 +1,12 @@
-.header {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
+
+    &__heading {
+        display: none;
+    }
 
     &__link {
         color: $black;

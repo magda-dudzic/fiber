@@ -1,0 +1,18 @@
+.pros {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 62px;
+
+    &__item {
+        width: 31%;
+    }
+
+    &__icon {
+        width: 100%;
+        max-width: 40px;
+    }
+
+    &__title {
+        margin: 16px 0;
+    }
+}

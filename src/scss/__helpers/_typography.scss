@@ -1,6 +1,6 @@
 .paragraph {
     line-height: 27px;
-    
+
     &--primary {
         color: $gray;
     }
@@ -8,10 +8,29 @@
     &--secondary {
         color: $black;
     }
+
+    &--tertiary {
+        color: $light-gray;
+    }
 }
 
 .h1 {
     font-size: 56px;
     font-family: $font-primary-bold;
     margin: 15px 0;
+}
+
+.h2 {
+    font-size: 18px;
+    color: $color-primary;
+}
+
+.h3 {
+    font-size: 36px;
+    font-family: $font-primary-bold;
+    color: $black;
+
+    &--secondary {
+        color: $white;
+    }
 }

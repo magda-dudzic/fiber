@@ -1,5 +1,10 @@
 .hero {
-    &__container {}
+    background-color: $color-secondary;
+
+    &__container {
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
 
     &__content {
         display: flex;
