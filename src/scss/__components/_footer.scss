@@ -1,3 +1,32 @@
 .footer {
     background-color: $color-secondary;
+    padding: 66px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+
+        &--main {
+            width: 35%;
+        }
+    }
+
+    &__heading {
+        margin: 0 0 16px 0;
+    }
+
+    &__text {
+        margin-top: 0;
+    }
+
+    &__link {
+        margin: 4px 0;
+        color: $gray;
+        line-height: 27px;
+    }
 }
